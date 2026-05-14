@@ -1,0 +1,22 @@
+.idea
+#docs
+**/node_modules/
+tech_radar/build/
+tech_radar/.techradar/.next/
+tech_radar/.techradar
+
+# Terraform / OpenTofu (Task4 and elsewhere)
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/crash.log
+**/.terraform.tfstate.lock.info
+*.auto.tfvars
+*.auto.tfvars.json
+terraform.rc
+.terraformrc
+
+# Sensitive files — never commit
+**/sa-key.json
+**/*-key.json
+Task4/apply_log.txt
